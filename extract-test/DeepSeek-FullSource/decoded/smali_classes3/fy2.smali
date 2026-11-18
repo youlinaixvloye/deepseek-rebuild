@@ -1,3 +1,0 @@
-.class public final Lfy2;
-.super Ldy2;
-.source "r8-map-id-1813aa66c4b9c79d6442c4c99f119b210ad47a2fe07eb84cbb9865b59e9e7533"
