@@ -1,0 +1,30 @@
+package defpackage;
+
+/* JADX INFO: compiled from: r8-map-id-1813aa66c4b9c79d6442c4c99f119b210ad47a2fe07eb84cbb9865b59e9e7533 */
+/* JADX INFO: loaded from: classes.dex */
+public final class bc3 extends dg7 implements il9 {
+    public boolean o;
+    public final boolean p;
+    public dx4 q;
+
+    public bc3(boolean r1, boolean r2, dx4 r3) {
+        this.o = r1;
+        this.p = r2;
+        this.q = r3;
+    }
+
+    @Override // defpackage.il9
+    public final void X0(tl9 r1) {
+        this.q.j(r1);
+    }
+
+    @Override // defpackage.il9
+    public final boolean Z0() {
+        return this.o;
+    }
+
+    @Override // defpackage.il9
+    public final boolean c0() {
+        return this.p;
+    }
+}

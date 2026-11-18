@@ -1,0 +1,149 @@
+.class public final synthetic Lty;
+.super Ljava/lang/Object;
+.source "r8-map-id-1813aa66c4b9c79d6442c4c99f119b210ad47a2fe07eb84cbb9865b59e9e7533"
+
+# interfaces
+.implements Lrx4;
+
+
+# instance fields
+.field public final synthetic a:Leg7;
+
+.field public final synthetic b:J
+
+.field public final synthetic c:Lotb;
+
+.field public final synthetic d:Lw23;
+
+.field public final synthetic e:Lw23;
+
+.field public final synthetic f:F
+
+.field public final synthetic g:F
+
+.field public final synthetic h:Lw23;
+
+
+# direct methods
+.method public synthetic constructor <init>(Leg7;JLotb;Lw23;Lw23;FFLw23;I)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lty;->a:Leg7;
+
+    .line 5
+    .line 6
+    iput-wide p2, p0, Lty;->b:J
+
+    .line 7
+    .line 8
+    iput-object p4, p0, Lty;->c:Lotb;
+
+    .line 9
+    .line 10
+    iput-object p5, p0, Lty;->d:Lw23;
+
+    .line 11
+    .line 12
+    iput-object p6, p0, Lty;->e:Lw23;
+
+    .line 13
+    .line 14
+    iput p7, p0, Lty;->f:F
+
+    .line 15
+    .line 16
+    iput p8, p0, Lty;->g:F
+
+    .line 17
+    .line 18
+    iput-object p9, p0, Lty;->h:Lw23;
+
+    .line 19
+    .line 20
+    return-void
+.end method
+
+
+# virtual methods
+.method public final r(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 11
+
+    .line 1
+    move-object v9, p1
+
+    .line 2
+    check-cast v9, Ln05;
+
+    .line 3
+    .line 4
+    check-cast p2, Ljava/lang/Integer;
+
+    .line 5
+    .line 6
+    invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 7
+    .line 8
+    .line 9
+    const p1, 0x186c01
+
+    .line 10
+    .line 11
+    .line 12
+    invoke-static {p1}, Lba7;->z(I)I
+
+    .line 13
+    .line 14
+    .line 15
+    move-result v10
+
+    .line 16
+    iget-object v0, p0, Lty;->a:Leg7;
+
+    .line 17
+    .line 18
+    iget-wide v1, p0, Lty;->b:J
+
+    .line 19
+    .line 20
+    iget-object v3, p0, Lty;->c:Lotb;
+
+    .line 21
+    .line 22
+    iget-object v4, p0, Lty;->d:Lw23;
+
+    .line 23
+    .line 24
+    iget-object v5, p0, Lty;->e:Lw23;
+
+    .line 25
+    .line 26
+    iget v6, p0, Lty;->f:F
+
+    .line 27
+    .line 28
+    iget v7, p0, Lty;->g:F
+
+    .line 29
+    .line 30
+    iget-object v8, p0, Lty;->h:Lw23;
+
+    .line 31
+    .line 32
+    invoke-static/range {v0 .. v10}, Llf9;->p(Leg7;JLotb;Lw23;Lw23;FFLw23;Ln05;I)V
+
+    .line 33
+    .line 34
+    .line 35
+    sget-object p0, Lqbb;->a:Lqbb;
+
+    .line 36
+    .line 37
+    return-object p0
+.end method

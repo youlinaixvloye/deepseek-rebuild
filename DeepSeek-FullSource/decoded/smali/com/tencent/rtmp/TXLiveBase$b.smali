@@ -1,0 +1,54 @@
+.class final Lcom/tencent/rtmp/TXLiveBase$b;
+.super Ljava/lang/Object;
+.source "r8-map-id-1813aa66c4b9c79d6442c4c99f119b210ad47a2fe07eb84cbb9865b59e9e7533"
+
+# interfaces
+.implements Lcom/tencent/liteav/base/util/CommonUtil$a;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/tencent/rtmp/TXLiveBase;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "b"
+.end annotation
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+.method public synthetic constructor <init>(B)V
+    .locals 0
+
+    .line 5
+    invoke-direct {p0}, Lcom/tencent/rtmp/TXLiveBase$b;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(ILjava/lang/String;)V
+    .locals 0
+
+    .line 1
+    invoke-static {p1, p2}, Lcom/tencent/rtmp/TXLiveBase;->onUpdateNetworkTime(ILjava/lang/String;)V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method

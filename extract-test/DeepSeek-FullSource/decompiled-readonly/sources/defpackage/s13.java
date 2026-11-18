@@ -1,0 +1,121 @@
+package defpackage;
+
+/* JADX INFO: compiled from: r8-map-id-1813aa66c4b9c79d6442c4c99f119b210ad47a2fe07eb84cbb9865b59e9e7533 */
+/* JADX INFO: loaded from: classes3.dex */
+public final class s13 {
+    public final Object a;
+    public final wm1 b;
+    public final sx4 c;
+    public final Object d;
+    public final Throwable e;
+
+    public s13(Object r1, wm1 r2, sx4 r3, Object r4, Throwable r5) {
+        this.a = r1;
+        this.b = r2;
+        this.c = r3;
+        this.d = r4;
+        this.e = r5;
+    }
+
+    public /* synthetic */ s13(Object r3, wm1 r4, sx4 r5, Throwable r6, int r7) {
+        if ((r7 & 2) == 0) goto L6;
+        r4 = null;
+    L6:
+        if ((r7 & 4) == 0) goto L9;
+        r5 = null;
+    L9:
+        if ((r7 & 16) == 0) goto L11;
+        Throwable r8 = null;
+    L12:
+        this(r3, r4, r5, null, r8);
+        return;
+    L11:
+        r8 = r6;
+        goto L12
+    }
+
+    public static s13 a(s13 r6, wm1 r7, Throwable r8, int r9) {
+        Object r1 = r6.a;
+        if ((r9 & 2) == 0) goto L5;
+        r7 = r6.b;
+    L5:
+        wm1 r2 = r7;
+        sx4 r3 = r6.c;
+        Object r4 = r6.d;
+        if ((r9 & 16) == 0) goto L9;
+        r8 = r6.e;
+    L9:
+        return new s13(r1, r2, r3, r4, r8);
+    }
+
+    public final boolean equals(Object r5) {
+        if (this != r5) goto L6;
+        return true;
+    L6:
+        if ((r5 instanceof s13) == true) goto L8;
+        return false;
+    L8:
+        s13 r6 = (s13) r5;
+        if (lu5.b(this.a, r6.a) == true) goto L12;
+        return false;
+    L12:
+        if (lu5.b(this.b, r6.b) == true) goto L15;
+        return false;
+    L15:
+        if (lu5.b(this.c, r6.c) == true) goto L18;
+        return false;
+    L18:
+        if (lu5.b(this.d, r6.d) == true) goto L21;
+        return false;
+    L21:
+        if (lu5.b(this.e, r6.e) == true) goto L23;
+        return false;
+    L23:
+        return true;
+    }
+
+    public final int hashCode() {
+        int r0 = 0;
+        Object r1 = this.a;
+        if (r1 != null) goto L5;
+        int r2 = 0;
+    L6:
+        int r3 = r2 * 31;
+        wm1 r4 = this.b;
+        if (r4 != null) goto L9;
+        int r5 = 0;
+    L10:
+        int r6 = (r3 + r5) * 31;
+        sx4 r7 = this.c;
+        if (r7 != null) goto L13;
+        int r8 = 0;
+    L14:
+        int r9 = (r6 + r8) * 31;
+        Object r10 = this.d;
+        if (r10 != null) goto L17;
+        int r11 = 0;
+    L18:
+        int r12 = (r9 + r11) * 31;
+        Throwable r13 = this.e;
+        if (r13 == null) goto L23;
+        r0 = r13.hashCode();
+    L23:
+        return r12 + r0;
+    L17:
+        r11 = r10.hashCode();
+        goto L18
+    L13:
+        r8 = r7.hashCode();
+        goto L14
+    L9:
+        r5 = r4.hashCode();
+        goto L10
+    L5:
+        r2 = r1.hashCode();
+        goto L6
+    }
+
+    public final String toString() {
+        return "CompletedContinuation(result=" + this.a + ", cancelHandler=" + this.b + ", onCancellation=" + this.c + ", idempotentResume=" + this.d + ", cancelCause=" + this.e + ')';
+    }
+}

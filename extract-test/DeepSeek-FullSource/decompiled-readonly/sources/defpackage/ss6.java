@@ -1,0 +1,12 @@
+package defpackage;
+
+/* JADX INFO: compiled from: r8-map-id-1813aa66c4b9c79d6442c4c99f119b210ad47a2fe07eb84cbb9865b59e9e7533 */
+/* JADX INFO: loaded from: classes.dex */
+public abstract class ss6 {
+    public static final long[] a = null;
+
+    static {
+        new rj7(0);
+        a = new long[0];
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "apk": "DeepSeek-API.apk",
+  "bytes": 22890504,
+  "sha256": "fe3f452328f6f84ef66f6ecab6dade50739f7804f58341a4f01f6bf9ae6b5349",
+  "signed": true,
+  "zip_crc_ok": true,
+  "key_asset_present": false,
+  "requires_original_apk": false,
+  "requires_external_android_sdk": false,
+  "source_zip": "DeepSeek-2.7.1-全量可构建源码.zip",
+  "source_zip_bytes": 122245293,
+  "source_zip_sha256": "01d491c0217ff24a9b4cfbdd40430fc942678d2f855c9ff8130d01be2f164db7",
+  "built_after_extracting_final_zip": true,
+  "original_apk_argument_used": false,
+  "external_sdk_argument_used": false,
+  "bundled_tools_only": true,
+  "prerequisites": "Windows, JDK 21, Python 3",
+  "personal_key_scan": "not found in any archive entry",
+  "source_manifest_files_verified": 30148
+}

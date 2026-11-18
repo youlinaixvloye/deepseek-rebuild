@@ -1,0 +1,2 @@
+fix: prevent analytics deadlock during account initialization
+80844ba71 (release/v2.7.1)

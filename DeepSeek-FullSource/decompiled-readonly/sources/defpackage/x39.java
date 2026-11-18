@@ -1,0 +1,14 @@
+package defpackage;
+
+/* JADX INFO: compiled from: r8-map-id-1813aa66c4b9c79d6442c4c99f119b210ad47a2fe07eb84cbb9865b59e9e7533 */
+/* JADX INFO: loaded from: classes.dex */
+public final class x39 extends z39 {
+    public final int d;
+    public final String e;
+
+    public x39(int r1, int r2, int r3, String r4, String r5) {
+        super(r4, r1, r2);
+        this.d = r3;
+        this.e = r5;
+    }
+}

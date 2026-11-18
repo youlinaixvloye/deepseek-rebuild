@@ -1,0 +1,32 @@
+Running javac
+����: [options] Դֵ 8 �ѹ�ʱ������δ�����а���ɾ��
+����: [options] Ŀ��ֵ 8 �ѹ�ʱ������δ�����а���ɾ��
+����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+3 ������
+Running jar
+Running java
+Running java
+I: Using Apktool 3.0.3 on base.apk.1 with 8 threads
+I: Smaling smali_classes3 folder into classes3.dex...
+I: Smaling smali_classes2 folder into classes2.dex...
+I: Smaling smali folder into classes.dex...
+I: Building resources with aapt2...
+I: Building apk file...
+I: Importing assets...
+I: Importing lib...
+I: Importing unknown files...
+I: Built apk into: G:\DeepSeek-FullSource-20261118\DeepSeek-FullSource\build\base-unsigned.apk
+Running zipalign.exe
+����Ϊ���¶������� 2,048 λRSA��Կ�Ժ���ǩ��֤�� (SHA384withRSA) (��Ч��Ϊ 3,650 ��):
+	 CN=Local Full Source Development
+Running java
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Running zipalign.exe
+Built complete APK: G:\DeepSeek-FullSource-20261118\DeepSeek-FullSource\output\DeepSeek-API.apk

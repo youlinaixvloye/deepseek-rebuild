@@ -1,0 +1,108 @@
+package defpackage;
+
+import com.tencent.liteav.TXLiteAVCode;
+import java.util.HashMap;
+
+/* JADX INFO: compiled from: r8-map-id-1813aa66c4b9c79d6442c4c99f119b210ad47a2fe07eb84cbb9865b59e9e7533 */
+/* JADX INFO: loaded from: classes.dex */
+public abstract class pb9 {
+    public static final HashMap a = null;
+
+    static {
+        HashMap r0 = new HashMap(47);
+        a = r0;
+        x18.p(-984833, r0, "aliceblue", -332841, "antiquewhite");
+        r0.put("aqua", -16711681);
+        r0.put("aquamarine", -8388652);
+        x18.p(-983041, r0, "azure", -657956, "beige");
+        x18.p(-6972, r0, "bisque", -16777216, "black");
+        x18.p(-5171, r0, "blanchedalmond", -16776961, "blue");
+        x18.p(-7722014, r0, "blueviolet", -5952982, "brown");
+        x18.p(-2180985, r0, "burlywood", -10510688, "cadetblue");
+        x18.p(-8388864, r0, "chartreuse", -2987746, "chocolate");
+        x18.p(-32944, r0, "coral", -10185235, "cornflowerblue");
+        x18.p(-1828, r0, "cornsilk", -2354116, "crimson");
+        r0.put("cyan", -16711681);
+        r0.put("darkblue", -16777077);
+        x18.p(-16741493, r0, "darkcyan", -4684277, "darkgoldenrod");
+        r0.put("darkgray", -5658199);
+        r0.put("darkgreen", -16751616);
+        r0.put("darkgrey", -5658199);
+        r0.put("darkkhaki", -4343957);
+        x18.p(-7667573, r0, "darkmagenta", -11179217, "darkolivegreen");
+        x18.p(-29696, r0, "darkorange", -6737204, "darkorchid");
+        x18.p(-7667712, r0, "darkred", -1468806, "darksalmon");
+        x18.p(-7357297, r0, "darkseagreen", -12042869, "darkslateblue");
+        r0.put("darkslategray", -13676721);
+        r0.put("darkslategrey", -13676721);
+        r0.put("darkturquoise", -16724271);
+        r0.put("darkviolet", -7077677);
+        x18.p(-60269, r0, "deeppink", -16728065, "deepskyblue");
+        r0.put("dimgray", -9868951);
+        r0.put("dimgrey", -9868951);
+        r0.put("dodgerblue", -14774017);
+        r0.put("firebrick", -5103070);
+        x18.p(-1296, r0, "floralwhite", -14513374, "forestgreen");
+        r0.put("fuchsia", -65281);
+        r0.put("gainsboro", -2302756);
+        x18.p(-460545, r0, "ghostwhite", -10496, "gold");
+        r0.put("goldenrod", -2448096);
+        r0.put("gray", -8355712);
+        x18.p(-16744448, r0, "green", -5374161, "greenyellow");
+        r0.put("grey", -8355712);
+        r0.put("honeydew", -983056);
+        x18.p(-38476, r0, "hotpink", -3318692, "indianred");
+        x18.p(-11861886, r0, "indigo", -16, "ivory");
+        x18.p(-989556, r0, "khaki", -1644806, "lavender");
+        x18.p(-3851, r0, "lavenderblush", -8586240, "lawngreen");
+        x18.p(TXLiteAVCode.ERR_AUDIO_PLUGIN_INSTALL_NOT_AUTHORIZED, r0, "lemonchiffon", -5383962, "lightblue");
+        x18.p(-1015680, r0, "lightcoral", -2031617, "lightcyan");
+        r0.put("lightgoldenrodyellow", -329006);
+        r0.put("lightgray", -2894893);
+        r0.put("lightgreen", -7278960);
+        r0.put("lightgrey", -2894893);
+        x18.p(-18751, r0, "lightpink", -24454, "lightsalmon");
+        x18.p(-14634326, r0, "lightseagreen", -7876870, "lightskyblue");
+        r0.put("lightslategray", -8943463);
+        r0.put("lightslategrey", -8943463);
+        r0.put("lightsteelblue", -5192482);
+        r0.put("lightyellow", -32);
+        x18.p(-16711936, r0, "lime", -13447886, "limegreen");
+        r0.put("linen", -331546);
+        r0.put("magenta", -65281);
+        x18.p(-8388608, r0, "maroon", -10039894, "mediumaquamarine");
+        x18.p(-16777011, r0, "mediumblue", -4565549, "mediumorchid");
+        x18.p(-7114533, r0, "mediumpurple", -12799119, "mediumseagreen");
+        x18.p(-8689426, r0, "mediumslateblue", -16713062, "mediumspringgreen");
+        x18.p(-12004916, r0, "mediumturquoise", -3730043, "mediumvioletred");
+        x18.p(-15132304, r0, "midnightblue", -655366, "mintcream");
+        x18.p(-6943, r0, "mistyrose", -6987, "moccasin");
+        x18.p(-8531, r0, "navajowhite", -16777088, "navy");
+        x18.p(-133658, r0, "oldlace", -8355840, "olive");
+        x18.p(-9728477, r0, "olivedrab", -23296, "orange");
+        x18.p(-47872, r0, "orangered", -2461482, "orchid");
+        x18.p(-1120086, r0, "palegoldenrod", -6751336, "palegreen");
+        x18.p(-5247250, r0, "paleturquoise", -2396013, "palevioletred");
+        x18.p(-4139, r0, "papayawhip", -9543, "peachpuff");
+        x18.p(-3308225, r0, "peru", -16181, "pink");
+        x18.p(-2252579, r0, "plum", -5185306, "powderblue");
+        x18.p(-8388480, r0, "purple", -10079335, "rebeccapurple");
+        x18.p(-65536, r0, "red", -4419697, "rosybrown");
+        x18.p(-12490271, r0, "royalblue", -7650029, "saddlebrown");
+        x18.p(-360334, r0, "salmon", -744352, "sandybrown");
+        x18.p(-13726889, r0, "seagreen", -2578, "seashell");
+        x18.p(-6270419, r0, "sienna", -4144960, "silver");
+        x18.p(-7876885, r0, "skyblue", -9807155, "slateblue");
+        r0.put("slategray", -9404272);
+        r0.put("slategrey", -9404272);
+        r0.put("snow", -1286);
+        r0.put("springgreen", -16711809);
+        x18.p(-12156236, r0, "steelblue", -2968436, "tan");
+        x18.p(-16744320, r0, "teal", -2572328, "thistle");
+        x18.p(-40121, r0, "tomato", -12525360, "turquoise");
+        x18.p(-1146130, r0, "violet", -663885, "wheat");
+        x18.p(-1, r0, "white", -657931, "whitesmoke");
+        x18.p(-256, r0, "yellow", -6632142, "yellowgreen");
+        r0.put("transparent", 0);
+    }
+}

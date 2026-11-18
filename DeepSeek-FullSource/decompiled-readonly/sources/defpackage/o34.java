@@ -1,0 +1,21 @@
+package defpackage;
+
+/* JADX INFO: compiled from: r8-map-id-1813aa66c4b9c79d6442c4c99f119b210ad47a2fe07eb84cbb9865b59e9e7533 */
+/* JADX INFO: loaded from: classes.dex */
+public final class o34 implements zt4 {
+    public static final o34 a = null;
+
+    static {
+        a = new o34();
+    }
+
+    @Override // defpackage.zt4
+    public final t22 a(int r1) {
+        return null;
+    }
+
+    @Override // defpackage.zt4
+    public final Integer b(String r1) {
+        return null;
+    }
+}

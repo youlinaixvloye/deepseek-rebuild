@@ -1,0 +1,87 @@
+.class public final Le4c;
+.super Lpz2;
+.source "r8-map-id-1813aa66c4b9c79d6442c4c99f119b210ad47a2fe07eb84cbb9865b59e9e7533"
+
+
+# instance fields
+.field public final e:Ljava/util/concurrent/ConcurrentHashMap;
+
+
+# direct methods
+.method public constructor <init>(Landroid/content/Context;)V
+    .locals 2
+
+    .line 1
+    const/16 v0, 0xb
+
+    .line 2
+    .line 3
+    const/4 v1, 0x0
+
+    .line 4
+    invoke-direct {p0, v0, v1}, Lpz2;-><init>(IZ)V
+
+    .line 5
+    .line 6
+    .line 7
+    new-instance v0, Ljava/util/concurrent/ConcurrentHashMap;
+
+    .line 8
+    .line 9
+    invoke-direct {v0}, Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
+
+    .line 10
+    .line 11
+    .line 12
+    iput-object v0, p0, Le4c;->e:Ljava/util/concurrent/ConcurrentHashMap;
+
+    .line 13
+    .line 14
+    invoke-static {p1}, Landroid/accounts/AccountManager;->get(Landroid/content/Context;)Landroid/accounts/AccountManager;
+
+    .line 15
+    .line 16
+    .line 17
+    return-void
+.end method
+
+
+# virtual methods
+.method public final C0(Ljava/lang/String;Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Le4c;->e:Ljava/util/concurrent/ConcurrentHashMap;
+
+    .line 2
+    .line 3
+    invoke-virtual {p0, p1, p2}, Ljava/util/concurrent/ConcurrentHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+.method public final H0(Ljava/lang/String;)Ljava/lang/String;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Le4c;->e:Ljava/util/concurrent/ConcurrentHashMap;
+
+    .line 2
+    .line 3
+    invoke-virtual {p0, p1}, Ljava/util/concurrent/ConcurrentHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p0
+
+    .line 7
+    check-cast p0, Ljava/lang/String;
+
+    .line 8
+    .line 9
+    return-object p0
+.end method

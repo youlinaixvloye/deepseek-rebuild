@@ -1,0 +1,11 @@
+/build/
+/output/
+/decoded/build/
+/decoded/dist/
+*.jks
+*.keystore
+*.dpapi
+.env
+.env.*
+*private-api-key*
+__pycache__/

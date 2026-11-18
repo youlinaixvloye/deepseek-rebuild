@@ -1,0 +1,24 @@
+package defpackage;
+
+import java.util.Iterator;
+
+/* JADX INFO: loaded from: classes3.dex */
+public final class ak4 extends ob3 {
+    public /* synthetic */ Object d;
+    public int e;
+    public final /* synthetic */ b60 f;
+    public vj4 g;
+    public Iterator h;
+
+    public ak4(b60 r1, nb3 r2) {
+        this.f = r1;
+        super(r2);
+    }
+
+    @Override // defpackage.xi0
+    public final Object z(Object r2) {
+        this.d = r2;
+        this.e |= Integer.MIN_VALUE;
+        return this.f.b(null, this);
+    }
+}

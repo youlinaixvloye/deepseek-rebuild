@@ -1,0 +1,13 @@
+package defpackage;
+
+import java.util.Arrays;
+
+/* JADX INFO: compiled from: r8-map-id-1813aa66c4b9c79d6442c4c99f119b210ad47a2fe07eb84cbb9865b59e9e7533 */
+/* JADX INFO: loaded from: classes.dex */
+public abstract class kla {
+    public static final kc6 a = null;
+
+    static {
+        a = new kc6("taggerscript", p84.a, null, false, null, false, null, Arrays.asList(new id7[]{new id7(null, null, Arrays.asList(new id7[]{new id7(null, null, null, null, null, "\\\\[()]", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, -33, 511), new id7(null, null, Arrays.asList(new id7[]{new id7(null, null, null, null, null, "\\\\[()]", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, -33, 511), new ld7()}), null, null, "\\(", null, "\\)", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, -165, 511)}), null, null, "\\$noop\\(", null, "\\)", null, null, null, null, Double.valueOf(10.0d), null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, "comment", null, -4261, 383), new id7(null, null, null, null, null, "\\$[_a-zA-Z0-9]+(?=\\()", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, "keyword", null, -33, 383), new id7(null, null, null, null, null, "%[_a-zA-Z0-9:]+%", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, "variable", null, -33, 383), new id7(null, null, null, null, null, "\\\\[\\\\nt$%,()]", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, "symbol", null, -33, 383), new id7(null, null, null, null, null, "\\\\u[a-fA-F0-9]{4}", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, "symbol", null, -33, 383)}), null, null, null, 31612);
+    }
+}

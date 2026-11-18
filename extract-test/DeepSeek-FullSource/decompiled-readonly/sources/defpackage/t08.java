@@ -1,0 +1,103 @@
+package defpackage;
+
+import java.util.Collections;
+import java.util.Set;
+
+/* JADX INFO: compiled from: r8-map-id-1813aa66c4b9c79d6442c4c99f119b210ad47a2fe07eb84cbb9865b59e9e7533 */
+/* JADX INFO: loaded from: classes3.dex */
+public abstract class t08 {
+    public static final ll7 a = null;
+    public static final ll7 b = null;
+    public static final ll7 c = null;
+    public static final ll7 d = null;
+    public static final ll7 e = null;
+    public static final ll7 f = null;
+    public static final ll7 g = null;
+    public static final ll7 h = null;
+    public static final ll7 i = null;
+    public static final ll7 j = null;
+    public static final ll7 k = null;
+    public static final ll7 l = null;
+    public static final t09 m = null;
+    public static final ll7 n = null;
+    public static final ll7 o = null;
+    public static final ll7 p = null;
+    public static final ll7 q = null;
+    public static final Set r = null;
+    public static final Set s = null;
+    public static final Set t = null;
+
+    static {
+        ll7 r0 = ll7.f("getValue");
+        a = r0;
+        ll7 r1 = ll7.f("setValue");
+        b = r1;
+        ll7 r2 = ll7.f("provideDelegate");
+        c = r2;
+        ll7 r3 = ll7.f("equals");
+        d = r3;
+        ll7.f("hashCode");
+        ll7 r4 = ll7.f("compareTo");
+        e = r4;
+        ll7 r5 = ll7.f("contains");
+        f = r5;
+        g = ll7.f("invoke");
+        h = ll7.f("iterator");
+        i = ll7.f("get");
+        ll7 r6 = ll7.f("set");
+        j = r6;
+        k = ll7.f("next");
+        l = ll7.f("hasNext");
+        ll7.f("toString");
+        m = new t09("component\\d+");
+        ll7 r8 = ll7.f("and");
+        ll7 r9 = ll7.f("or");
+        ll7 r10 = ll7.f("xor");
+        ll7 r16 = ll7.f("inv");
+        ll7 r7 = ll7.f("shl");
+        ll7 r17 = ll7.f("shr");
+        ll7 r18 = ll7.f("ushr");
+        ll7 r11 = ll7.f("inc");
+        n = r11;
+        ll7 r12 = ll7.f("dec");
+        o = r12;
+        ll7 r20 = ll7.f("plus");
+        ll7 r21 = ll7.f("minus");
+        ll7 r15 = ll7.f("not");
+        ll7 r14 = ll7.f("unaryMinus");
+        ll7 r13 = ll7.f("unaryPlus");
+        ll7 r19 = ll7.f("times");
+        ll7 r22 = ll7.f("div");
+        ll7 r23 = ll7.f("rem");
+        ll7 r24 = ll7.f("rangeTo");
+        p = r24;
+        ll7 r25 = ll7.f("rangeUntil");
+        q = r25;
+        ll7 r26 = ll7.f("timesAssign");
+        ll7 r27 = ll7.f("divAssign");
+        ll7 r28 = ll7.f("remAssign");
+        ll7 r29 = ll7.f("plusAssign");
+        ll7 r30 = ll7.f("minusAssign");
+        ll7 r32 = ll7.f("toDouble");
+        ll7 r33 = ll7.f("toFloat");
+        ll7 r34 = ll7.f("toLong");
+        ll7 r35 = ll7.f("toInt");
+        ll7 r38 = ll7.f("toChar");
+        ll7 r36 = ll7.f("toShort");
+        ll7 r37 = ll7.f("toByte");
+        a10.L0(new ll7[]{r11, r12, r13, r14, r15, r16});
+        r = a10.L0(new ll7[]{r13, r14, r15, r16});
+        Set r31 = a10.L0(new ll7[]{r19, r20, r21, r22, r23, r24, r25});
+        s = r31;
+        a10.L0(new ll7[]{r19, r20, r21, r22, r23});
+        Set r210 = a10.L0(new ll7[]{r8, r9, r10, r16, r7, r17, r18});
+        a10.L0(new ll7[]{r8, r9, r10, r7, r17, r18});
+        wq9.z(wq9.z(r31, r210), a10.L0(new ll7[]{r3, r5, r4}));
+        Set r39 = a10.L0(new ll7[]{r26, r27, r28, r29, r30});
+        t = r39;
+        a10.L0(new ll7[]{r0, r1, r2});
+        wq9.z(Collections.singleton(r6), r39);
+        a10.L0(new ll7[]{r32, r33, r34, r35, r36, r37, r38});
+        pw6.m0(new g58[]{new g58(r11, "++"), new g58(r12, "--"), new g58(r13, "+"), new g58(r14, "-"), new g58(r15, "!"), new g58(r19, "*"), new g58(r20, "+"), new g58(r21, "-"), new g58(r22, "/"), new g58(r23, "%"), new g58(r24, ".."), new g58(r25, "..<")});
+    }
+}

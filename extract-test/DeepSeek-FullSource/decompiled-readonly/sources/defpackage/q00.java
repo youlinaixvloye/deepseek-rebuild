@@ -1,0 +1,16 @@
+package defpackage;
+
+import java.util.Iterator;
+
+/* JADX INFO: compiled from: r8-map-id-1813aa66c4b9c79d6442c4c99f119b210ad47a2fe07eb84cbb9865b59e9e7533 */
+/* JADX INFO: loaded from: classes3.dex */
+public abstract class q00 implements Iterable, b76 {
+    public abstract int a();
+
+    public abstract void b(int r1, xo r2);
+
+    public abstract Object get(int r1);
+
+    @Override // java.lang.Iterable
+    public abstract Iterator iterator();
+}

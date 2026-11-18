@@ -1,0 +1,236 @@
+.class public Lh86;
+.super Ls86;
+.source "r8-map-id-1813aa66c4b9c79d6442c4c99f119b210ad47a2fe07eb84cbb9865b59e9e7533"
+
+# interfaces
+.implements Le86;
+
+
+# instance fields
+.field public final k:Lnf6;
+
+
+# direct methods
+.method public constructor <init>(Lx66;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
+    .locals 6
+
+    .line 1
+    const/4 v4, 0x0
+
+    .line 2
+    move-object v0, p0
+
+    .line 3
+    move-object v1, p1
+
+    .line 4
+    move-object v2, p2
+
+    .line 5
+    move-object v3, p3
+
+    .line 6
+    move-object v5, p4
+
+    .line 7
+    invoke-direct/range {v0 .. v5}, Ls86;-><init>(Lx66;Ljava/lang/String;Ljava/lang/String;Ljn8;Ljava/lang/Object;)V
+
+    .line 8
+    .line 9
+    .line 10
+    new-instance p0, Lf86;
+
+    .line 11
+    .line 12
+    const/4 p1, 0x0
+
+    .line 13
+    invoke-direct {p0, v0, p1}, Lf86;-><init>(Lh86;I)V
+
+    .line 14
+    .line 15
+    .line 16
+    const/4 p1, 0x2
+
+    .line 17
+    invoke-static {p1, p0}, Lir7;->I(ILbx4;)Lnf6;
+
+    .line 18
+    .line 19
+    .line 20
+    move-result-object p0
+
+    .line 21
+    iput-object p0, v0, Lh86;->k:Lnf6;
+
+    .line 22
+    .line 23
+    new-instance p0, Lf86;
+
+    .line 24
+    .line 25
+    const/4 p2, 0x1
+
+    .line 26
+    invoke-direct {p0, v0, p2}, Lf86;-><init>(Lh86;I)V
+
+    .line 27
+    .line 28
+    .line 29
+    invoke-static {p1, p0}, Lir7;->I(ILbx4;)Lnf6;
+
+    .line 30
+    .line 31
+    .line 32
+    return-void
+.end method
+
+.method public constructor <init>(Lx66;Ljn8;)V
+    .locals 1
+
+    .line 33
+    invoke-direct {p0, p1, p2}, Ls86;-><init>(Lx66;Ljn8;)V
+
+    .line 34
+    new-instance p1, Lf86;
+
+    const/4 p2, 0x0
+
+    invoke-direct {p1, p0, p2}, Lf86;-><init>(Lh86;I)V
+
+    const/4 p2, 0x2
+
+    invoke-static {p2, p1}, Lir7;->I(ILbx4;)Lnf6;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lh86;->k:Lnf6;
+
+    .line 35
+    new-instance p1, Lf86;
+
+    const/4 v0, 0x1
+
+    invoke-direct {p1, p0, v0}, Lf86;-><init>(Lh86;I)V
+
+    invoke-static {p2, p1}, Lir7;->I(ILbx4;)Lnf6;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final c()Lg86;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lh86;->k:Lnf6;
+
+    .line 2
+    .line 3
+    invoke-interface {p0}, Lnf6;->getValue()Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p0
+
+    .line 7
+    check-cast p0, Lg86;
+
+    .line 8
+    .line 9
+    return-object p0
+.end method
+
+.method public final c()Lp86;
+    .locals 0
+
+    .line 10
+    iget-object p0, p0, Lh86;->k:Lnf6;
+
+    invoke-interface {p0}, Lnf6;->getValue()Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Lg86;
+
+    return-object p0
+.end method
+
+.method public final get(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lh86;->k:Lnf6;
+
+    .line 2
+    .line 3
+    invoke-interface {p0}, Lnf6;->getValue()Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p0
+
+    .line 7
+    check-cast p0, Lg86;
+
+    .line 8
+    .line 9
+    filled-new-array {p1}, [Ljava/lang/Object;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object p1
+
+    .line 13
+    invoke-virtual {p0, p1}, Lc66;->b([Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 14
+    .line 15
+    .line 16
+    move-result-object p0
+
+    .line 17
+    return-object p0
+.end method
+
+.method public final j(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1}, Lh86;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+
+    .line 5
+    return-object p0
+.end method
+
+.method public final y()Lp86;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lh86;->k:Lnf6;
+
+    .line 2
+    .line 3
+    invoke-interface {p0}, Lnf6;->getValue()Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p0
+
+    .line 7
+    check-cast p0, Lg86;
+
+    .line 8
+    .line 9
+    return-object p0
+.end method

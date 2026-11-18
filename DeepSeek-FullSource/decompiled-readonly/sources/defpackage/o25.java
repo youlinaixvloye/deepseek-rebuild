@@ -1,0 +1,16 @@
+package defpackage;
+
+/* JADX INFO: compiled from: r8-map-id-1813aa66c4b9c79d6442c4c99f119b210ad47a2fe07eb84cbb9865b59e9e7533 */
+/* JADX INFO: loaded from: classes3.dex */
+public final class o25 implements pc3 {
+    public static final o25 a = null;
+
+    static {
+        a = new o25();
+    }
+
+    @Override // defpackage.pc3
+    public final hc3 getCoroutineContext() {
+        return k84.a;
+    }
+}

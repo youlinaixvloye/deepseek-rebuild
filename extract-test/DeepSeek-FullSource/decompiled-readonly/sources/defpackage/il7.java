@@ -1,0 +1,28 @@
+package defpackage;
+
+import com.ishumei.sdk.captcha.SmCaptchaWebView;
+import com.ishumei.smantifraud.l11l111l11Il;
+import com.ishumei.smantifraud.l11l11I1111l;
+import com.ishumei.smantifraud.l1l11I11l;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import java.util.Map;
+
+/* JADX INFO: compiled from: r8-map-id-1813aa66c4b9c79d6442c4c99f119b210ad47a2fe07eb84cbb9865b59e9e7533 */
+/* JADX INFO: loaded from: classes.dex */
+public abstract class il7 {
+    public static final kc6 a = null;
+
+    static {
+        Map r2 = pw6.m0(new g58[]{new g58("keyword", Arrays.asList(new String[]{"all", "alter", "analyze", "and", "any", "array", "as", "asc", "begin", "between", "binary", "boolean", "break", "bucket", "build", "by", "call", "case", "cast", "cluster", "collate", "collection", "commit", "connect", "continue", "correlate", "cover", "create", "database", "dataset", "datastore", "declare", "decrement", "delete", "derived", "desc", "describe", "distinct", "do", "drop", "each", "element", "else", "end", "every", "except", "exclude", "execute", "exists", "explain", "fetch", "first", "flatten", "for", "force", "from", "function", "grant", "group", "gsi", "having", "if", "ignore", "ilike", "in", "include", "increment", "index", "infer", "inline", "inner", "insert", "intersect", "into", "is", "join", "key", "keys", "keyspace", "known", "last", "left", "let", "letting", "like", "limit", "lsm", "map", "mapping", "matched", "materialized", "merge", "minus", "namespace", "nest", "not", "number", "object", "offset", "on", "option", "or", "order", "outer", "over", "parse", "partition", "password", "path", "pool", "prepare", "primary", "private", "privilege", "procedure", "public", "raw", "realm", "reduce", "rename", "return", "returning", "revoke", "right", "role", "rollback", "satisfies", "schema", SmCaptchaWebView.MODE_SELECT, "self", "semi", "set", "show", "some", "start", "statistics", "string", "system", "then", "to", "transaction", "trigger", "truncate", "under", "union", "unique", "unknown", "unnest", "unset", "update", "upsert", "use", "user", "using", "validate", "value", "valued", "values", "via", "view", "when", "where", "while", "with", "within", "work", "xor"})), new g58("literal", Arrays.asList(new String[]{"true", "false", "null", "missing|5"})), new g58("built_in", Arrays.asList(new String[]{"array_agg", "array_append", "array_concat", "array_contains", "array_count", "array_distinct", "array_ifnull", "array_length", "array_max", "array_min", "array_position", "array_prepend", "array_put", "array_range", "array_remove", "array_repeat", "array_replace", "array_reverse", "array_sort", "array_sum", "avg", "count", "max", "min", "sum", "greatest", "least", "ifmissing", "ifmissingornull", "ifnull", "missingif", "nullif", "ifinf", "ifnan", "ifnanorinf", "naninf", "neginfif", "posinfif", "clock_millis", "clock_str", "date_add_millis", "date_add_str", "date_diff_millis", "date_diff_str", "date_part_millis", "date_part_str", "date_trunc_millis", "date_trunc_str", "duration_to_str", "millis", "str_to_millis", "millis_to_str", "millis_to_utc", "millis_to_zone_name", "now_millis", "now_str", "str_to_duration", "str_to_utc", "str_to_zone_name", "decode_json", "encode_json", "encoded_size", "poly_length", "base64", "base64_encode", "base64_decode", "meta", "uuid", "abs", "acos", "asin", "atan", "atan2", "ceil", "cos", "degrees", l1l11I11l.l111l1111lIl, "exp", "ln", "log", "floor", "pi", "power", "radians", "random", "round", "sign", "sin", "sqrt", "tan", "trunc", "object_length", "object_names", "object_pairs", "object_inner_pairs", "object_values", "object_inner_values", "object_add", "object_put", "object_remove", "object_unwrap", "regexp_contains", "regexp_like", "regexp_position", "regexp_replace", "contains", "initcap", l11l111l11Il.l11l111lll, "lower", "ltrim", "position", "repeat", "replace", "rtrim", "split", "substr", "title", "trim", "upper", "isarray", "isatom", "isboolean", "isnumber", "isobject", "isstring", l11l11I1111l.l111l1111l1Il, "toarray", "toatom", "toboolean", "tonumber", "toobject", "tostring"}))});
+        id7 r0 = h13.a;
+        id7 r3 = new id7(null, null, Collections.singletonList(r0), null, null, "'", null, "'", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, "string", null, -165, 383);
+        id7 r4 = new id7(null, null, Collections.singletonList(r0), null, null, "\"", null, "\"", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, "string", null, -165, 383);
+        id7 r5 = new id7(null, null, Collections.singletonList(r0), null, null, "`", null, "`", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, "symbol", null, -165, 383);
+        id7 r1 = h13.i;
+        id7 r6 = h13.f;
+        List r9 = Arrays.asList(new id7[]{new id7(r2, null, Arrays.asList(new id7[]{r3, r4, r5, r1, r6}), null, null, null, "build create index delete drop explain infer|10 insert merge prepare select update upsert|10", ";", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, -198, 511), r6});
+        a = new kc6("n1ql", p84.a, null, true, null, false, null, r9, null, null, null, 31604);
+    }
+}

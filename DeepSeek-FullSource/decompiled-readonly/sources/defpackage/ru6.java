@@ -1,0 +1,100 @@
+package defpackage;
+
+import android.graphics.Bitmap;
+import android.graphics.ColorFilter;
+import android.graphics.Path;
+import android.graphics.PointF;
+import android.graphics.Typeface;
+import com.ishumei.smantifraud.l11l111lI1l;
+
+/* JADX INFO: compiled from: r8-map-id-1813aa66c4b9c79d6442c4c99f119b210ad47a2fe07eb84cbb9865b59e9e7533 */
+/* JADX INFO: loaded from: classes.dex */
+public interface ru6 {
+    public static final Float A = null;
+    public static final Float B = null;
+    public static final Float C = null;
+    public static final Float D = null;
+    public static final Float E = null;
+    public static final Float F = null;
+    public static final Float G = null;
+    public static final Float H = null;
+    public static final ColorFilter I = null;
+    public static final Integer[] J = null;
+    public static final Typeface K = null;
+    public static final Bitmap L = null;
+    public static final String M = null;
+    public static final Path N = null;
+    public static final PointF a = null;
+    public static final PointF b = null;
+    public static final Float c = null;
+    public static final Float d = null;
+    public static final Float e = null;
+    public static final PointF f = null;
+    public static final PointF g = null;
+    public static final Float h = null;
+    public static final PointF i = null;
+    public static final he9 j = null;
+    public static final Float k = null;
+    public static final Float l = null;
+    public static final Float m = null;
+    public static final Float n = null;
+    public static final Float o = null;
+    public static final Float p = null;
+    public static final Float q = null;
+    public static final Float r = null;
+    public static final Float s = null;
+    public static final Float t = null;
+    public static final Float u = null;
+    public static final Float v = null;
+    public static final Float w = null;
+    public static final Float x = null;
+    public static final Float y = null;
+    public static final Float z = null;
+
+    static {
+        a = new PointF();
+        b = new PointF();
+        Float r0 = Float.valueOf(15.0f);
+        c = r0;
+        Float r1 = Float.valueOf(16.0f);
+        d = r1;
+        Float r2 = Float.valueOf(17.0f);
+        e = r2;
+        f = new PointF();
+        g = new PointF();
+        Float r3 = Float.valueOf(l11l111lI1l.l111l1111lI1l);
+        h = r3;
+        i = new PointF();
+        j = new he9();
+        k = Float.valueOf(1.0f);
+        l = Float.valueOf(1.1f);
+        m = Float.valueOf(1.2f);
+        n = Float.valueOf(1.3f);
+        o = r3;
+        p = r3;
+        q = Float.valueOf(2.0f);
+        r = Float.valueOf(3.0f);
+        s = Float.valueOf(4.0f);
+        t = Float.valueOf(5.0f);
+        u = Float.valueOf(6.0f);
+        v = Float.valueOf(7.0f);
+        w = Float.valueOf(8.0f);
+        x = Float.valueOf(9.0f);
+        y = Float.valueOf(10.0f);
+        z = Float.valueOf(11.0f);
+        A = Float.valueOf(12.0f);
+        B = Float.valueOf(12.1f);
+        C = Float.valueOf(13.0f);
+        D = Float.valueOf(14.0f);
+        E = r0;
+        F = r1;
+        G = r2;
+        H = Float.valueOf(18.0f);
+        I = new ColorFilter();
+        J = new Integer[0];
+        K = Typeface.DEFAULT;
+        L = Bitmap.createBitmap(1, 1, Bitmap.Config.ALPHA_8);
+        M = "dynamic_text";
+        N = new Path();
+    }
+}
